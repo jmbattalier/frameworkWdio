@@ -1,0 +1,28 @@
+screen 1: 
+a registration button with the selector 'imReadyCTA'
+an advertising image with the selector pictureAdvertisingLanding
+screen 2: 
+a button I am a man with the selector 'maleBtn' 
+a button I am a woman with the selector 'femaleBtn' 
+a button of another gender with the selector 'moreOptionsBtn' 
+a validate button with the selector "button"
+screen 3: 
+a search button for men with the selector 'menBtn' 
+a search button for women with the selector 'womenBtn' 
+a button searches for everyone with the selector 'everyoneBtn' 
+a validate button with the selector "button"
+screen 4: 
+a date of birth input with the 'textInputEditText' selector with a string MM/DD/YYYY format 
+a validate button with the 'button' selector
+screen 5: 
+a postal code input with the 'autoCompleteTextView' selector 
+a validate button with the "button" selector
+screen 6: 
+a first name input with 'textInputEditText' as selector 
+a validate button with "button" as selector
+screen 7: 
+an email input with the 'textInputEditText' selector 
+a validate button with the "button" selector
+screen 8: 
+a password input with 'textInputEditText' as selector 
+a validate button with "button" as selector
