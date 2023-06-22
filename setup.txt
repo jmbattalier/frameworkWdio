@@ -1,0 +1,21 @@
+Webdriver.io with @wdio/appium-service and @wdio/mocha-framework on an Android application on Browserstack with local testing mode at true. 
+Webdriverio with object model design pattern.
+Here is the documentation of webdriverio https://v7.webdriver.io/
+Browserstack locale is USA.
+Browserstack is used remotely.
+Suggest a random localIdentifier for Browserstack as Meet-{random number}+{date format DDMMYYYY}.
+use driver.$ for doing some action and not client.$
+Use Asynchronous. Use DESCRIBE and IT from Mocha.
+Separate all the steps with different IT with Mocha.
+Import all the necessary functions for webdriver.io
+The code is in TypeScript.
+Do the Capabilities to run this test on Browserstack on a real Android device, my Browserstack login is jeanmarc234 and my password is password1234. 
+To click on an element use await element.touchAction('tap').
+To fill a value use await element.addValue(string).
+To verify that an element exists use await element.waitForExist().
+An element is in the form let element = await $('id=identifier').
+
+The selectors will be in the form: id=”identifier”, with the given word instead of identifier, for example 'id=imReadyCTA' for the registration button.
+These selectors will be in English and will have the form: let element = await $(‘id=identifier’)
+
+Prepare a function to generate a password of 10 characters all different with an upper case character as first letter.
